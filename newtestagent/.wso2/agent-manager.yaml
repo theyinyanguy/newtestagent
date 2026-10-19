@@ -10,3 +10,6 @@ mcpServers:
   - proxy: send-email-mock
     env:
       url: SEND_EMAIL_MOCK_MCP_URL
+org: default
+project: cragent
+agent: newtestagent
