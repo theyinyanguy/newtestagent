@@ -1,0 +1,12 @@
+llmProviders:
+  - provider: customopenai
+    env:
+      url: CUSTOMOPENAI_URL
+      apikey: CUSTOMOPENAI_API_KEY
+mcpServers:
+  - proxy: contract-store
+    env:
+      url: CONTRACT_STORE_MCP_URL
+  - proxy: send-email-mock
+    env:
+      url: SEND_EMAIL_MOCK_MCP_URL

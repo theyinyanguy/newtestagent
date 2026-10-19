@@ -1,0 +1,10 @@
+[package]
+org = "puneetmakwana"
+name = "newtestagent"
+version = "0.1.0"
+distribution = "2201.14.0"
+title = "NewTestAgent"
+
+[build-options]
+sticky = true
+observabilityIncluded = true
