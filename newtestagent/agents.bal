@@ -1,8 +1,6 @@
 import ballerina/ai;
 import ballerina/mcp;
 
-final ai:Wso2ModelProvider contractReviewModel = check ai:getDefaultModelProvider();
-
 final ai:Agent contractReviewAgent = check new (
     systemPrompt = {
         role: string `Contract Review Assistant`,
